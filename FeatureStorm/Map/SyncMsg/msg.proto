@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package map;
+option go_package = "./map";
+
+message SyncMsg {
+    int32 id = 1;
+    repeated string updates = 2;
+}

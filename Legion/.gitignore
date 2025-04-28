@@ -1,0 +1,11 @@
+.idea
+node_modules
+.DS_Store
+*.pem
+run
+applications/drive-ext-min.js
+applications/legion-min.js
+send_to_prod.sh
+run_experiment.sh
+*.pub
+framework/server/keyData/*

@@ -1,0 +1,11 @@
+gh gr s 
+gh gr av a
+gh gr av b
+gh gr av c
+gh gr ae a b
+gh gr r 
+gh gr ae b c
+gh gr ae a c
+gh gr ae a b
+gh gr r 
+gh gr av x

@@ -1,0 +1,11 @@
+pnc rg s 0
+pnc rg i 1
+pnc rg i 1
+pnc rg i 1
+pnc rg r 
+pnc rg i 5
+pnc rg i 5
+pnc rg d 5
+pnc rg d 5
+pnc rg r 
+pnc rg i 10

@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/provakar/Oxygen/Distributed-Undo-Redo/rKV-Store/Graph/RACTests/RACTests.csproj": {}
+  },
+  "projects": {
+    "/home/provakar/Oxygen/Distributed-Undo-Redo/rKV-Store/Graph/RAC/Project_RAC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/provakar/Oxygen/Distributed-Undo-Redo/rKV-Store/Graph/RAC/Project_RAC.csproj",
+        "projectName": "Project_RAC",
+        "projectPath": "/home/provakar/Oxygen/Distributed-Undo-Redo/rKV-Store/Graph/RAC/Project_RAC.csproj",
+        "packagesPath": "/home/provakar/.nuget/packages/",
+        "outputPath": "/home/provakar/Oxygen/Distributed-Undo-Redo/rKV-Store/Graph/RAC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/provakar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "NetCoreServer": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/provakar/Oxygen/Distributed-Undo-Redo/rKV-Store/Graph/RACTests/RACTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/provakar/Oxygen/Distributed-Undo-Redo/rKV-Store/Graph/RACTests/RACTests.csproj",
+        "projectName": "RACTests",
+        "projectPath": "/home/provakar/Oxygen/Distributed-Undo-Redo/rKV-Store/Graph/RACTests/RACTests.csproj",
+        "packagesPath": "/home/provakar/.nuget/packages/",
+        "outputPath": "/home/provakar/Oxygen/Distributed-Undo-Redo/rKV-Store/Graph/RACTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/provakar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/provakar/Oxygen/Distributed-Undo-Redo/rKV-Store/Graph/RAC/Project_RAC.csproj": {
+                "projectPath": "/home/provakar/Oxygen/Distributed-Undo-Redo/rKV-Store/Graph/RAC/Project_RAC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.6.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

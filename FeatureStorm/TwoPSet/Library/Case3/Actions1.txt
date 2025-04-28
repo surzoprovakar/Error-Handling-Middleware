@@ -1,0 +1,15 @@
+Add 1
+1
+Add 2
+2
+Add 3
+2
+Remove 2
+2
+Broadcast
+10
+Add 100
+2 
+Remove 100
+2
+undo_Add_3 3

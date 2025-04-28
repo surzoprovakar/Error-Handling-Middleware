@@ -1,0 +1,17 @@
+Add:p:10
+2
+Delete:p
+2
+Add:q:11
+1
+Add:r:12
+1
+Delete:e
+2
+Delete:r
+1
+Update:q:12
+2
+Broadcast
+5
+Broadcast
